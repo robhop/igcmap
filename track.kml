@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+<open>1</open>
+  <Folder>
+    <Metadata src="GpsDump" v="5.20" type="trip"/>
+    <open>1</open>
+    <name>Trip</name>
+    <description><![CDATA[
+<pre>
+Flight statistics
+Date                 2018-07-26
+Start/finish         15:55:21 - 16:51:42
+Duration             0 : 56 : 21
+Max./min. height     372 / 83 m
+Max. mean/top speed  34 km/h / 42 km/h
+Max/min climb rate   0.70 / -1.90 m/s over 60s
+Total distance       25.73 km
+</pre>]]>
+    </description>
+
+    <Placemark>
+      <Metadata src="GpsDump" v="5.20" type="track">
+        <FsInfo time_of_first_point="{{time_of_first_point}}">
+          <SecondsFromTimeOfFirstPoint>{{SecondsFromTimeOfFirstPoint}}</SecondsFromTimeOfFirstPoint>
+          <PressureAltitude>{{PressureAltitude}}</PressureAltitude>
+        </FsInfo>
+      </Metadata>
+      <name>Tracklog</name>
+      <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>{{coordinates}}</coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+</Document>
